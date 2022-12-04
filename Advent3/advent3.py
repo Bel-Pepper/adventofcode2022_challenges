@@ -14,7 +14,7 @@ def getCompartmentSize(x):
     compSize=full_len / 2
     compSize=int(compSize)
     return compSize
-    
+
     
 #I would love it if I could make a range for these. Too bad ascii
 #ranges are Uppercase first. Could still make it work but feels ok.
@@ -34,7 +34,7 @@ def score(x):
 
 def main():
 
-    file_to_open=Path("Advent3/advent3Test.txt")
+    file_to_open=Path("Advent3/advent3.txt")
     f=open(file_to_open)
 
     #init vars
