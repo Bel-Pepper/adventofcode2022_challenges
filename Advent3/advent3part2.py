@@ -1,6 +1,4 @@
-#Solution for Advent of Code Challenge 3 part 1 in python
-#Time to start actually using some style guides 
-#and try to make it look //pythonic//
+#Solution for Advent of Code Challenge 3 part 2 in python
 
 #pathlib's "Path" will take your file path and convert its format 
 #to whatever the current OS wants
