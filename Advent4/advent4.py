@@ -51,38 +51,7 @@ def main():
         if not line:
             print ("done")
             f.close()
-
-
-    def tempshit():
-        for line in f:
-            if line:
-                tally=0
-                elfA=[*range(1,11)]
-                print (elfA)
-                elfB=[*range(3,7)]
-                print (elfB)
-                if len(elfA) >= len(elfB):
-                    smaller=len(elfB)
-                    for x, val in enumerate(elfB):
-                        print (x)
-                        if elfB[x] in elfA:
-                            tally=tally+1
-
-                elif len(elfB) > len(elfA):
-                    smaller=len(elfA)
-                    print("here")
-                if tally == smaller:
-                    total=total+1
-                print ("overlap ==", total)
-            if not line:
-                print ("total overlap ==", total)
-                f.close()
-                break
-    f.close()
-
-    
-
-
+            
     
 if __name__ == "__main__":
     main()
