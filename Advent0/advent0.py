@@ -4,8 +4,9 @@
 #Advent of Code Challenge n part  in python
 
 from pathlib import Path
-file_to_open=Path("Advent5/advent5TestStart.txt")
+file_to_open=Path("Advent N/advent N.txt")
 
+f = open(file_to_open)
 
 
 def main():
